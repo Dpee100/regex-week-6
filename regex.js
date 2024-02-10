@@ -10,4 +10,4 @@ console.log(verveCard.test("5061030000000000050"));
 
 // Visa has 13 and 16 digits, it starts with 4.
 const visaCard = /^4(\d{13})|(\d{16})$/;
-console.log(visaCard.test("4263982640269299"))
+console.log(visaCard.test("4263982640269299"));
